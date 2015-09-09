@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Modal tutorial from BootstrapBay.com">
+    <meta name="author" content="BootstrapBay.com">
+    <title>Brandon Chase Smith</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">BCS</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li> 
+            <li><a href="bio.html">Bio</a></li>
+            <li><a href="startup.html">Startup</a></li>      
+            <li><a href="blog.html">Blog</a></li> 
+            <li><a href="#contact" data-toggle="modal">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+<!--/Main Body Elements-->
+
+<div class="container">
+    	<div class="page-header">
+    		<h1>Startup Stuff</h1>
+    	</div>
+    	<div class="col-sm-9">
+    		<div class="thumbnail">
+    			<img src="img/chefcartheader.png" alt="Chef Cart Pic">
+    		</div>
+    	</div>
+         
+         <div class="col-sm-3">
+          <div class="thumbnail bg-grey text-center">
+           <h2>Share me with the world</h2>
+            <p>www.brandonchasesmith.me</p>
+           <a href="#" class="btn btn-success" role="button">Share</a>
+          </div>
+         </div>
+         <div class="row">
+          <div class="col-sm-9">
+          <p>Stepping into a grocery store is like straddling a time zone that spans 50 years. Your left foot is firmly stuck in 1975, your right foot is searching for traction in 2015, and your eyes are more than likely looking down at your smart phone. There are some startling trends appearing in society that can be in part attributed to our love/hate relationship with the American supermarket. The cost of food has never been lower. At the same time the amount spent on groceries as opposed to dining out has also never been lower. Not surprisingly the rate of obesity and diet related health problems has trended upwards right along with the dollars we spend eating pre-processed fast food. We know that cooking meals at home is both good for the waistline and the purse strings, so why are consumers, Millennials specifically, turning away from the grocery store? Because it’s a terrible customer experience. In today’s app driven society, user experience (UX) is something consumers expect to be taken into consideration, but do you feel loved when you shop at the grocery store? Point blank, the answer is no. To create a better shopping experience that increases user sentiment and promotes the overall health of shoppers there is one clear place to begin innovating; the shopping cart. 
+Tript Technologies Inc. is creating a point-of-sale enabled shopping cart that will completely revolutionize the grocery shopping experience. When you combine affordable hardware with insightful software that increases the user experience and saves all parties time, money, and labor you have a product that is a game changer.
+Imagine, if you will, that you walk into the grocery store and grab a “buggy”, hoping that you can just get in and out quickly and avoid the lines. As a health conscious person you are interested in keeping your food choices as balanced as your budget, but convenience is your main priority. You pull up your grocery store’s app, clip your phone to the handle of the buggy and start shopping. As you put items into your buggy it passes a scanner strip attached to the rim of the shopping cart and is automatically added to the value of your cart. This is visible directly on your phone’s screen, along with the nutritional value of each item. You eye some fresh vegetables and grab a baggy. Placing your baggy on the foldable scale attached to the buggy you key in the vegetables code number and see the items added to the receipt on your mobile device. Drop them in the buggy and carry on your way. Stopping by the deli you see some fresh salmon that would go perfect with the recipe your app provided last time. It mentioned to you that your protein and healthy fat levels were a little low in comparison to your carbohydrates, and even gave you a coupon to incentivize you. The deli attendant weighs your fish and hands it to you with a scannable sticker on the bag. It’s scanned as you drop it in the buggy and proceed to the checkout lines. As you scan your digital receipt and health info your app supplies a notification that you haven’t purchased any fruit and lets you know that the organic plums are on sale. As you bag your plums you look over at the shopping lines and notice that only 2 lines are open and hang your head. Why are there always 18 line and only 2 are open? Then you notice the pay now button on your phone’s app. You press it and see that your store accepts both Apple Pay and Google Pay. Having an iPhone you select Apple Pay, confirm your total, and walk out of the store with a smile on your face. 
+This experience was nearly autonomous, helpful to the user, and highly valuable to grocery retailer. The only thing that changed was the shopping cart. It’s highly adoptable, cheaply implemented, drastically needed. 
+           </p>
+         </div>
+        </div>
+         
+		    
+    <!-- Fixed footer -->
+    <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+    	<div class="container">
+    		<div class="navbar-text pull-left">
+    			<p> 2015 Brandon Chase Smith</p>
+    		</div>
+    		<div class="navbar-text pull-right">
+    			<a href="https://www.facebook.com/chase.smith.7370"><i class="fa fa-facebook-square fa-2x"></i></a>
+    			<a href="https://twitter.com/smithc0222"><i class="fa fa-twitter fa-2x"></i></a>
+    			<a href="https://www.linkedin.com/profile/view?id=AAIAAASMbyIBNC5ykMhKeRn7Iri-_AhIZ6xPe5Q&trk=nav_responsive_tab_profile"><i class="fa fa-linkedin fa-2x"></i></a>
+    		</div>
+    	</div>
+    </div>
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <div class="modal fade" id="contact" role="dialog">
+    	<div class="modal-dialog">
+    		<div class="modal-content">
+    			<form class="form-horizontal" role="form">
+    				<div class="modal-header">
+    					<h4>Contact<h4>
+	    			</div>
+	    			<div class="modal-body">
+    					<div class="form-group">
+    						<label for="contact-name" class="col-sm-2 control-label">Name</label>
+    						<div class="col-sm-10">
+    							<input type="text" class="form-control" id="contact-name" placeholder="First & Last Name">
+    						</div>
+    					</div>
+    					<div class="form-group">
+    						<label for="contact-email" class="col-sm-2 control-label">Email</label>
+    						<div class="col-sm-10">
+    							<input type="email" class="form-control" id="contact-email" placeholder="example@domain.com">
+    						</div>
+    					</div>
+    					<div class="form-group">
+    						<label for="contact-message" class="col-sm-2 control-label">Message</label>
+    						<div class="col-sm-10">
+    							<textarea class="form-control" rows="4"></textarea>
+    						</div>
+    					</div>
+	    			</div>
+	    			<div class="modal-footer">
+    					<a class="btn btn-default" data-dismiss="modal">Close</a>
+    					<button type="submit" class="btn btn-primary">Send</button>
+    				</div>
+    			</form>
+    		</div>
+    	</div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

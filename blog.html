@@ -14,6 +14,18 @@
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
   </head>
   <body>
+
+<!-- fb button -->
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
     <!-- Fixed navbar -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
@@ -58,9 +70,9 @@ Feynman was a keen popularizer of physics through both books and lectures, inclu
          </div>
          <div class="col-sm-3">
           <div class="thumbnail bg-grey text-center">
-           <h2>Share me with the world</h2>
-            <p>www.brandonchasesmith.me</p>
-           <a href="#" class="btn btn-success" role="button">Share</a>
+           <h2>I'm going to put cool stuff here soon.</h2>
+	   <div class="fb-share-button" data-href="https://www.chasesmith.xyz" data-layout="button"></div>
+           <a href="#" class="btn btn-success" role="button">soon</a>
           </div>
        </div>
       </div>
@@ -86,8 +98,8 @@ Feynman was a keen popularizer of physics through both books and lectures, inclu
          <div class="col-sm-3">
           <div class="thumbnail bg-grey text-center">
            <h2>Share me with the world</h2>
-            <p>www.brandonchasesmith.me</p>
-           <a href="#" class="btn btn-success" role="button">Share</a>
+		<div class="fb-share-button" data-href="https://www.chasesmith.xyz" data-layout="button"></div>
+           <a href="#" class="btn btn-success" role="button">Soon</a>
           </div>
        </div>
       </div>
@@ -99,10 +111,11 @@ Feynman was a keen popularizer of physics through both books and lectures, inclu
     			<p> 2015 Brandon Chase Smith</p>
     		</div>
     		<div class="navbar-text pull-right">
-    			<a href="https://www.facebook.com/chase.smith.7370" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
-    			<a href="https://twitter.com/smithc0222" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-    			<a href="https://www.linkedin.com/pub/chase-smith/21/682/2aa" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-    		</div>
+    			<a href="https://www.facebook.com/chase.smith.7370" target="_blank"><span class="fa fa-facebook-square fa-2x"></span></a>
+    			<a href="https://twitter.com/smithc0222" target="_blank"><span class="fa fa-twitter fa-2x"></span></a>
+    			<a href="https://www.linkedin.com/pub/chase-smith/21/682/2aa" target="_blank"><span class="fa fa-linkedin fa-2x"></span></a>
+			<a href="mailto:bcsmith3@uncg.edu"><span class="glyphicon glyphicon-envelope"></span></a> 
+   		</div>
     	</div>
     </div>
     
